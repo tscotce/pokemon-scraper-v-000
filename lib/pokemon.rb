@@ -21,6 +21,7 @@ class Pokemon
     pokemon.id = pk[0][0]
     pokemon.name = pk[0][1]
     pokemon.type = pk[0][2]
+    pokemon.hp = pk[0][3]
     pokemon
   end
   
