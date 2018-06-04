@@ -1,2 +1,2 @@
 CREATE TABLE IF NOT EXISTS pokemon(id INTEGER PRIMARY KEY, name TEXT, type TEXT);
-UPDATE pokemon SET hp = 60;
+ALTER TABLE pokemon ADD hp = 60 INTEGER;
